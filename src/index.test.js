@@ -6,7 +6,7 @@ describe("index.js", function () {
     server.close(); // Close the server after tests
   });
 
-  it("sTest echo root path", function (done) {
+  it("Test echo root path", function (done) {
     request(server).get("/").expect(200, done);
   });
 });
