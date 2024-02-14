@@ -1,4 +1,4 @@
-const { server } = require("./index"); // Adjust the path as necessary
+const { server } = require("../src/index"); // Adjust the path as necessary
 const request = require("supertest");
 
 describe("index.js", function () {
